@@ -19,12 +19,12 @@ Function-2 see `database::printTopBusy(unsigned int N)`
 $ make clean
 $ make
 $ sample 5
-number	minutes
-2436	1472
-26	1273
-65	1272
-34252	1234
-87	942
+number		minutes
+17205550749	578
+17205550638	554
+17205551106	546
+17205550686	546
+17205551004	508
 ```
 The program takes one argument as a number and prints out the number of entries. There is no real formatting of the output as it just uses a tab to delimit the text. If you don't provide a number it uses the default of 10.
 
@@ -52,12 +52,12 @@ phoneNumber_test::testConstructors : OK
 phoneNumber_test::testSettersAndGetters : OK
 phoneNumber_test::testIsValid : OK
 database_test::testAddRecord : OK
-number	minutes
-2436	1472
-26	1273
-65	1272
-34252	1234
-87	942
+number		minutes
+17205551021	594
+17205550893	562
+17205550988	539
+17205551122	519
+17205550944	503
 OK (4)
 ```
 ## Notes
