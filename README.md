@@ -2,13 +2,17 @@
 We want to report top-N busy users (phone number) in total minutes they talked.
  
 Write two functions along a small test app (main) using those functions.
+
 Function-1: add a record for a single call. Takes 2 parameters: calling number and number of minutes.
+
 Function-2: print most busy numbers. Takes single parameter (N) and prints N number of telephone numbers along with their total minutes in sorted order.
  
 This application must be compliable in gcc 4.1 or above and runnable.
+
 Use std library containers, one or more is OK.
 ## Solution
 Function-1 see `database::addRecord(unsigned long number, unsigned short minutes)`
+
 Function-2 see `database::printTopBusy(unsigned int N)`
 ## Building
 ```
